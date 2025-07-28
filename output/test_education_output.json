@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "input_documents": [
+      "research_paper.pdf",
+      "compliance_guide.pdf",
+      "curriculum_manual.pdf"
+    ],
+    "persona": "Undergraduate Chemistry Student",
+    "job_to_be_done": "Identify key concepts and mechanisms for exam preparation on reaction kinetics",
+    "processing_timestamp": "2025-07-28T13:25:08.544771"
+  },
+  "extracted_sections": [
+    {
+      "document": "curriculum_manual.pdf",
+      "page_number": 3,
+      "section_title": "Curriculum Development",
+      "importance_rank": 1
+    },
+    {
+      "document": "compliance_guide.pdf",
+      "page_number": 2,
+      "section_title": "Compliance Requirements",
+      "importance_rank": 2
+    },
+    {
+      "document": "research_paper.pdf",
+      "page_number": 1,
+      "section_title": "Methodology and Approach",
+      "importance_rank": 3
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "curriculum_manual.pdf",
+      "page_number": 3,
+      "refined_text": "The curriculum development process involves creating learning objectives and assessment criteria. Students should demonstrate proficiency in advanced programming concepts. Evaluation methods include practical assignments and theoretical assessments.",
+      "importance_rank": 1
+    },
+    {
+      "document": "compliance_guide.pdf",
+      "page_number": 2,
+      "refined_text": "This document outlines the compliance requirements for financial services. Risk management procedures must be followed according to regulatory standards. All policies should be reviewed annually.",
+      "importance_rank": 2
+    },
+    {
+      "document": "research_paper.pdf",
+      "page_number": 1,
+      "refined_text": "This section describes the research methodology used in computational biology. The approach involves data analysis, statistical methods, and performance benchmarks. Key findings include significant improvements in accuracy and efficiency.",
+      "importance_rank": 3
+    }
+  ]
+}
